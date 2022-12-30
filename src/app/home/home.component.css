@@ -1,0 +1,61 @@
+.contenedor{
+    background: url("../../assets/fondo.jpg");
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.hijo_1{
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+
+}
+h1{
+    color: aliceblue;
+    font-size: 140px;
+    text-transform: uppercase;
+}
+h2{
+    color: aliceblue;
+    text-transform: uppercase;
+
+}
+.hijo_1_1{
+    /* background-color: pink; */
+    width: 60%;
+}
+.hijo_2{
+    /* background-color: purple; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.hijo_2_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blue; */
+    height: 65%;
+    width: 80%;
+}
+.hijo_2_2 > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    padding: 74px;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+}
+.hijo_1_1 p{
+    color: aliceblue;
+}
+.hijo_2_2 p{
+    margin: 0;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+}
